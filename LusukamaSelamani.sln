@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37314.3 d17.14
+VisualStudioVersion = 17.14.37314.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LusukamaSelamani", "LusukamaSelamani\LusukamaSelamani.csproj", "{60999B61-FFA5-4FBA-9763-62AE83710584}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingsForm", "GreetingsForm\GreetingsForm.csproj", "{C59FE2FB-2FED-47A4-8D78-BC03F410A3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileStockCapture", "MobileStockCapture\MobileStockCapture.csproj", "{89A3D395-2268-4F2B-928D-CBFE51D3B50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C59FE2FB-2FED-47A4-8D78-BC03F410A3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59FE2FB-2FED-47A4-8D78-BC03F410A3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59FE2FB-2FED-47A4-8D78-BC03F410A3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3D395-2268-4F2B-928D-CBFE51D3B50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3D395-2268-4F2B-928D-CBFE51D3B50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3D395-2268-4F2B-928D-CBFE51D3B50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3D395-2268-4F2B-928D-CBFE51D3B50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
