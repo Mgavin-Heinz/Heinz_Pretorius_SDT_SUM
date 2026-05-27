@@ -16,6 +16,12 @@ namespace MobileStockCapture
                 return;
             }
 
+            if (!int.TryParse(txtCode.Text, out int code))
+            {
+                MessageBox.Show("Code must be a number");
+                return;
+            }
+
             if (!int.TryParse(txtQuantity.Text, out int quantity) || quantity < 0)
             {
                 MessageBox.Show("Quantity must be a valid number and more than zero.");
